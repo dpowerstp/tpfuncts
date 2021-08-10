@@ -1,0 +1,20 @@
+Package: tpfuncts
+Title: Standard TP Processing Packages
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dan",
+           family = "Powers",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: Loads in basic functions for useo on Takoma Park projects
+URL: https://github.com/dpowerstp/tpfuncts
+BugReports: https://github.com/dpowerstp/tpfuncts/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    plotly,
+    purrr
