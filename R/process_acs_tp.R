@@ -34,7 +34,6 @@ process_df_tp <- function(df,
                            overall_cols = overall_cols,
                            name_col = name_col,
                            bind_overall = bind_overall,
-                           signif_cols = signif_cols,
                            root_df = root_df) %>%
     tpfuncts::signif_mont_tp(join_col = group_cols[-1],
                              name_pct = !!sym(name_pct)) %>%
