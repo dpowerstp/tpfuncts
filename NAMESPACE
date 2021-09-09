@@ -2,7 +2,12 @@
 
 export(commafy)
 export(data_path)
+export(name_formatter)
+export(name_num_formatter)
+export(num_formatter)
 export(pct_round)
+export(process_df_tp)
 export(pull_creator)
 export(sentence_format)
+export(signif_mont_tp)
 export(subplot_title)
